@@ -65,7 +65,7 @@ export default class HomeScreen extends React.Component {
   // Post image to API
   postPicture() {
     if (this.state.image) {
-      const apiUrl = 'https://moles-api-heroku.herokuapp.com/predict';
+      const apiUrl = 'https://moles-heroku.herokuapp.com/predict';
       const uri = this.state.image;
       const uriParts = uri.split('.');
       const fileType = uriParts[uriParts.length, -1];

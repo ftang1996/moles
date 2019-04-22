@@ -1,0 +1,13 @@
+don't track content of these folders
+
+moles_app/node_modules/**/*
+moles_app/.expo/*
+moles_app/npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+moles_api/__pycache__/*
+moles_api/test_images/*
+
